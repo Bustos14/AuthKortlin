@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739450055911",
+    "project_id": "authenticationkotlin-abusg",
+    "storage_bucket": "authenticationkotlin-abusg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739450055911:android:83f056462e8ad1f4f58642",
+        "android_client_info": {
+          "package_name": "com.example.authenticationkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739450055911-jncchjept5hupjm1sqat0b750oa7jdcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK1arCiRI1x1bBiyu-KKvfQhoc88BDcZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739450055911-jncchjept5hupjm1sqat0b750oa7jdcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
