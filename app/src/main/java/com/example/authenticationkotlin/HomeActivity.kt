@@ -44,8 +44,8 @@ class HomeActivity : AppCompatActivity() {
             proveedorTextView.text = "Registrado con " + provider
         }
         db.collection("users").document(email).get().addOnSuccessListener {
-            etTelefono.setText(it.get("telefono") as String)
-            etDireccion.setText(it.get("direccion") as String)
+            etTelefono.setText(it.get("telefono") as? String)
+            etDireccion.setText(it.get("direccion") as? String)
         }
         logOutButton.setOnClickListener{
             val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
